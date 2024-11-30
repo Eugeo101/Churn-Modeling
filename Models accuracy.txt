@@ -1,0 +1,24 @@
+UnderSampling:
+
+Logestic: 70.19 -> 70.81
+KNN: 71.88 -> 74.13
+Naive: 72.16 -> 72.16
+SVM: 76.98 -> 76.95
+DT: 72.93 -> 72.91
+
+Oversampling (k=5 no duplicates):
+
+Logestic: 71.03 -> 71.26
+KNN: 73.30 -> 73.38
+Naive: 71.69 -> 71.69
+SVM: 81.80 -> 80.18
+DT: 80.39 -> 78.89
+
+Ensemble:
+RF: 83.13 -> 83.23
+ExtraTrees: 80 -> left out
+AdaBoost: 84.04 -> 83.90
+GradientBoostingClassifier: 85.49 -> 85.49
+
+Voting Classifier: 83.77
+Stacking Classifier: 85.15%
